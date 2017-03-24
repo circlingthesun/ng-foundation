@@ -1,0 +1,30 @@
+{
+  "name": "ng-foundation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/webpack --env.prod -p --progress --optimize-minimize"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/common": "4.0.0",
+    "@angular/core": "4.0.0",
+    "@angular/forms": "4.0.0"
+  },
+  "devDependencies": {
+    "rxjs": "^5.2.0",
+    "sass-loader": "^4.1.1",
+    "ts-loader": "2.0.0",
+    "tslint": "^4.2.0",
+    "typescript": "^2.1.4",
+    "webpack": "^2.2.0",
+    "webpack-angular-externals": "^1.0.2",
+    "webpack-dev-server": "^2.2.0",
+    "webpack-uglify-js-plugin": "^1.1.9",
+    "yargs": "^7.0.2"
+  }
+}
